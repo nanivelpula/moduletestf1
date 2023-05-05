@@ -1,0 +1,231 @@
+/* for anchor tag in navabar */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');/* for subheading  */
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1a1c19;
+}
+.nav{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 65px;
+    width: 95%;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a{
+    color: white;
+        text-decoration: none;
+        font-family: Inter;
+        font-size: 0.8rem;
+}
+a:hover{
+    background: #e0d6c2;
+    color: black;
+}
+.left a{
+    border: 1px solid white;
+    border-radius: 27px;
+    padding:18px 45px;
+    margin-left: 5px;
+}
+.l1{
+    padding:18px 150px !important;
+    background: #333333;
+    border: none !important;
+}
+.l1:hover{
+    background: #333333 !important;
+    color: white;
+}
+.right a{
+    border: 1px solid white;
+    border-radius: 27px;
+        padding: 18px 40px;
+        margin-right: 5px;
+}
+.grid{
+    display: grid;
+    /* border: 1px solid white; */
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 400px 500px ;
+    grid-template-areas: 
+    "box1 box2 box2"
+    "box1 box3 box4";
+    justify-content: center;
+    gap: 10px;
+    width: 95%;
+    margin: 0 auto;
+    /* margin-left: 50px; */
+}
+.box{
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.box1 {
+    grid-area: box1;
+}.box2 {
+    grid-area: box2;
+}.box3 {
+    grid-area: box3;
+}.box4 {
+    grid-area: box4;
+}
+
+
+ .heading{
+    border: 1px solid black;
+    border-radius: 15px;
+display: inline-block;
+font-family: inter;
+font-weight: 500;
+padding: 2px;
+}
+.subheading{
+font-family: 'Suwannaphum', serif;
+}
+.box1 .img {
+    width: 420px;
+    height: 680px;
+    border-radius: 10px;
+    margin: 0px 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.box1{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    background: #e0d6c2;
+    color: #342415;
+    justify-content: space-around;
+}
+ span{
+    text-decoration: underline;
+}
+.box1 div{
+    display: flex;
+}
+p,h1,h2 ,img{
+    margin-top: 20px;
+    margin-left: 20px;
+    /* margin-bottom: 10px; */
+}
+.getstart{
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* box2-------------- */
+.gridbox2{
+    height: 300px;
+        color: #342415;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.box2{
+    background: #8f8868;
+        color: black;
+}
+.gridbox2 p{
+    font-family: inter;
+}
+
+.gridbox2 img{
+    margin-right: 50px;
+    height: 250px;
+    width: 400px;
+    
+}
+p{
+    font-weight: bold;
+}
+/* -------------------box3 */
+.box3{
+    background: #976c54;
+        color: #342415;
+}
+.box3 div{
+    margin: 5px auto;
+}
+.box3 .img{
+width: 400px;
+height: 200px;
+border-radius: 20px;
+}
+.box3 p{
+    margin: auto;
+    width: 90%;
+    font-family: inter;
+    margin-bottom: 10px;
+}
+.circle{
+    border: 1px solid black;
+    border-radius: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #342415;
+}
+.gridbox3 .subheading{
+    font-size:3rem ;
+}
+.gridbox3{
+    display: flex;
+    justify-content: baseline;
+}
+.gridbox3 h1{
+    margin: 0;
+}
+.box4{
+    background: #b5a38d;
+    color: #342415;
+}
+.box4 .img{
+    /* float: right; */
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 200px;
+    border-radius: 100%;
+}
+.box4 p{
+    font-family: inter;
+}
+.box .para{
+    border-bottom: 3px solid black;
+    width: 90%;
+    padding-bottom: 90px;
+}
+.box .para2 {
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    width: 90%;
+}
+
+.lastpara{
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 3px solid black;
+    margin: 20px auto;
+}
+hr {
+    border: none;
+    border-top: 0.8px solid #342415;
+    height: 0.5px;
+}
+
